@@ -1,0 +1,123 @@
+.Report-h2 {
+    text-decoration: underline;
+    font-family: cursive;
+    font-size: 24px;
+    /* color: #00f; */
+    margin-left: 15px;
+}
+
+h3 {
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 24px;
+    /* color: #00f; */
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.field {
+    width: 350px;
+    height: 30px;
+    margin-left: 15px;
+    font-size: 18px;
+    color: #070;
+    border: 2.5px solid #0f0;
+    border-radius: 5px;
+    font-family: cursive;
+}
+
+textarea {
+    height: 120px !important;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Picture {
+    width: 300px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.Back-button2 {
+    background: linear-gradient(45deg, lightgreen, green);
+    color: #fff;
+    height: 50px;
+    margin: 20px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: transform .3s ease-in-out;
+    min-width: 150px;
+    font-family: cursive;
+}
+
+.Back-button2:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 767px) {
+    .Report-h2 {
+        text-decoration: underline;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        /* color: #00f; */
+        margin-left: 10px;
+    }
+
+    .Report-h3 {
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        /* color: #00f; */
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .field {
+        background-color: #fff;
+        width: 320px;
+        height: 40px;
+        margin-left: 10px;
+        font-size: 18px;
+        color: #070;
+        border: 2px solid #0f0;
+        border-radius: 5px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Picture {
+        width: 120px;
+        margin-left: 110px;
+        margin-top: 20px;
+        margin-bottom: 7px;
+    }
+
+    .Back-button2 {
+        background: linear-gradient(45deg, lightgreen, green);
+        color: #fff;
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 20px;
+        font-size: 20px;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        transition: transform .3s ease-in-out;
+        min-width: 120px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .Back-button2:hover {
+        transform: scale(1.2);
+    }
+}

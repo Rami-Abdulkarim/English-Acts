@@ -1,0 +1,347 @@
+.MatchWI-Parent {
+    background: url(../Images/Classroom.jpeg) no-repeat center fixed;
+    background-size: cover;
+    height: 84.6vh;
+    overflow: hidden;
+}
+
+.MatchWI {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    color: #fff;
+}
+
+
+.MatchWI-Buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.MatchWI-Button {
+    width: 180px;
+    height: 55px;
+    border-radius: 12px;
+    border: none !important;
+    background: linear-gradient(45deg, yellow, orange);
+    transition: transform .3s ease-in-out;
+    cursor: pointer;
+}
+
+.MatchWI-Button:hover {
+    transform: scale(1.2);
+}
+
+.MatchWI-icon {
+    font-size: 30px;
+}
+
+.MatchWI-Info-Parent {
+    background: url(../Images/Classroom.jpeg) no-repeat center fixed;
+    background-size: cover;
+    height: 84.6vh;
+    overflow: hidden;
+}
+
+.MatchWI-Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.MatchWI-Info-Ol {
+    font-size: 20px;
+}
+
+.MatchWI-Info-Button {
+    width: 150px;
+    height: 40px;
+    border-radius: 12px;
+    border: none !important;
+    background: linear-gradient(45deg, yellow, orange);
+    transition: transform .3s ease-in-out;
+    cursor: pointer;
+}
+
+.MatchWI-Info-Button:hover {
+    transform: scale(1.2);
+}
+
+.MatchWIPlay-Parent {
+    background: url(../Images/Classroom-board.jpeg) no-repeat center fixed;
+    background-size: cover;
+    height: 84.6vh;
+    overflow: hidden;
+}
+
+.MatchWIPlay-Picture {
+    margin-left: 90px;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    transition: transform .3s ease-in-out;
+    cursor: pointer;
+}
+
+.MatchWIPlay-Picture:hover {
+    transform: scale(1.2);
+}
+
+.MatchWIPlay-Select {
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.MatchWIPlay-Option {
+    font-size: 18px;
+}
+
+.MatchWIPlay-Img {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.MatchWIPlay-Adjust1 {
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+.MatchWIPlay-Adjust2 {
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.MatchWIPlay-Adjust3 {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.MatchWIPlay-Parent-Container {
+    display: flex;
+    flex-direction: row;
+}
+
+.MatchWIPlay-Containers {
+    display: flex;
+    flex-direction: row;
+}
+
+.MatchWIPlay-ContainerResult {
+    margin-left: 120px;
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.MatchWIPlay-ContainerResult-Button {
+    width: 100px;
+    height: 25px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.MatchWIPlay-ContainerResult-Button:hover {
+    transform: scale(1.2);
+}
+
+@Media (max-width: 767px) {
+    .MatchWI-Parent {
+        background: url(../Images/Mobile-Board.png) no-repeat center fixed;
+        background-size: cover;
+        height: 84.6vh;
+        overflow: hidden;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .MatchWI {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 40px;
+        color: #fff;
+    }
+
+    .MatchWI-Buttons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+    
+    .MatchWI-Button {
+        width: 120px;
+        height: 45px;
+        border-radius: 12px;
+        border: none !important;
+        background: linear-gradient(45deg, yellow, orange);
+        transition: transform .3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .MatchWI-Button:hover {
+        transform: scale(1.2);
+    }
+    
+    .MatchWI-icon {
+        font-size: 22px;
+    }
+
+    .MatchWI-Info-Parent {
+        background: url(../Images/Classroom.jpeg) no-repeat center fixed;
+        background-size: cover;
+        height: 84.6vh;
+        overflow: hidden;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .MatchWI-Info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 21px;
+        margin-top: 35px;
+    }
+    
+    .MatchWI-Info-Ol {
+        font-size: 18px;
+        line-height: 1.8rem;
+    }
+
+    .MatchWI-Info-Button {
+        width: 100px;
+        height: 40px;
+        border-radius: 12px;
+        border: none !important;
+        background: linear-gradient(45deg, yellow, orange);
+        transition: transform .3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .MatchWI-Info-Button:hover {
+        transform: scale(1.2);
+    }
+
+    .MatchWIPlay-Parent {
+        background: url(../Images/Classroom-board.jpeg) no-repeat center fixed;
+        background-size: cover;
+        height: 84.6vh;
+        overflow: hidden;
+    }
+    
+    .MatchWIPlay-Picture {
+        margin-left: 10px;
+        margin-top: 20px;
+        width: 80px;
+        height: 80px;
+        transition: transform .3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .MatchWIPlay-Picture:hover {
+        transform: scale(1.2);
+    }
+
+    .MatchWIPlay-Select {
+        width: 80px;
+        height: 25px;
+        border: none;
+        border-radius: 10px;
+        font-size: 14px;
+        text-align: center;
+        cursor: pointer;
+        margin-left: -70px;
+    }
+    
+    .MatchWIPlay-Option {
+        font-size: 14px;
+    }
+    
+    .MatchWIPlay-Img {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    
+    .MatchWIPlay-Adjust1 {
+        margin-left: 75px;
+        margin-top: 10px;
+    }
+    
+    .MatchWIPlay-Adjust2 {
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+    
+    .MatchWIPlay-Adjust3 {
+        margin-left: 86px;
+        margin-top: 10px;
+    }
+    
+    .MatchWIPlay-Containers {
+        display: flex;
+    }
+
+    .MatchWIPlay-Container1 {
+        flex-direction: column;
+    }
+
+    .MatchWIPlay-Container2 {
+        flex-direction: column;
+    }
+
+    .MatchWIPlay-Container3 {
+        flex-direction: column;
+    }
+    
+    .MatchWIPlay-ContainerResult {
+        margin-left: 30px;
+        margin-top: 20px;
+        color: #fff;
+        text-align: center;
+        width: 300px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .MatchWIPlay-ContainerResult-Button {
+        width: 80px;
+        height: 25px;
+        margin-left: 20px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .MatchWIPlay-ContainerResult-Button:hover {
+        transform: scale(1.2);
+    }
+    
+}

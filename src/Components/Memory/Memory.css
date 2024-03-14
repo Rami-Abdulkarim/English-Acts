@@ -1,0 +1,108 @@
+.Memory-Main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: #0f1B21; */
+    background: url('../Images/Memory-Background.jpeg');
+    background-size: cover;
+}
+
+.Memory-Container {
+    height: 400px;
+    width: 400px;
+    /* background: #1f3540; */
+    margin-bottom: 53px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: .8em;
+}
+
+.Memory-H1 {
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+.Memory-Card {
+    background: #ff0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transform: rotateY(180deg);
+    animation: 2s hideCard linear;
+    transition: transform .5s ;
+}
+
+@keyframes hideCard {
+    0%, 70% {
+        transform: rotateY(0);
+    }
+    100% {
+        transform: rotateY(180deg);
+    }
+}
+
+.Memory-Card img {
+    max-width: 80%;
+    max-height: 80%;
+    transform: scale(0);
+    animation: 2s hideImage linear;
+    transition: transform .5s ;
+}
+
+@keyframes hideImage {
+    0%, 70% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+.Memory-Card.active {
+    transform: rotateY(0);
+}
+
+.Memory-Card.correct {
+    background-color: green;
+}
+.Memory-Card.wrong {
+    background-color: red;
+}
+
+.Memory-Card.active img {
+    transform: scale(1);
+}
+
+@Media (max-width: 767px) {
+
+    .Memory-Main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background: #0f1B21; */
+        background: url('../Images/Memory-Background.jpeg');
+        background-size: cover;
+        height: 84.6vh;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Memory-Container {
+        height: 300px;
+        width: 300px;
+        /* background: #1f3540; */
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: .6em;
+    }
+
+    .Memory-H1 {
+        color: #fff;
+        margin-bottom: 1em;
+        margin-top: 5px;
+    }
+}

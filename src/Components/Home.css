@@ -1,0 +1,61 @@
+.Home {
+    display: flex;
+}
+
+.Home-Picture {
+    max-width: 350px;
+    margin-right: 70px;
+    margin-top: 70px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.Home-h1 {
+    text-align: center;
+    /* color: #00f; */
+}
+.Home-p {
+    margin-left: 10px;
+    text-align: justify;
+    margin-right: 100px;
+    line-height: 2rem;
+    font-size: 20px;
+    margin-bottom: 25px;
+    /* color: #00f; */
+}
+
+@Media (max-width: 767px) {
+    .Home {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Home-Picture {
+        max-width: 250px;
+        max-height: 150px;
+        align-self: center;
+        border-radius: 5px;
+        margin-left: 60px;
+    }
+    
+    .Home-h1 {
+        text-align: center;
+        /* color: #00f; */
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .Home-p {
+        margin-left: 10px;
+        text-align: justify;
+        margin-right: 30px;
+        line-height: 1.5rem;
+        font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
+        /* color: #00f; */
+    }
+    .Home-h3 {
+        font-size: 16px;
+        font-weight: 1000;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}

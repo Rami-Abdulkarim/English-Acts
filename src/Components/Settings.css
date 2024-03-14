@@ -1,0 +1,80 @@
+.Settings-buttons {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.Settings-button {
+    background: linear-gradient(45deg, lightgreen, green);
+    color: #fff;
+    height: 50px;
+    margin: 20px;
+    font-size: 25px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: transform .3s ease-in-out;
+    min-width: 300px; /* Worked! */
+    font-family: cursive;
+}
+
+.Settings-button:hover {
+    transform: scale(1.2);
+}
+
+.Settings-p {
+    /* color: blue; */
+    font-size: 18px;
+    font-weight: 600;
+    margin: 2px;
+    margin-left: 35px;
+    text-align: center;
+    margin-bottom: 37px;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: .5;
+    transform: none !important;
+}
+
+@Media (max-width: 767px) {
+    .Settings-buttons {
+        display: flex;
+        flex-direction: column;
+        max-width: 200px;
+        padding-top: 100px;
+        margin-left: 62px;
+    }
+
+    .Settings-button {
+        background: linear-gradient(45deg, lightgreen, green);
+        color: #fff;
+        height: 50px;
+        margin: 20px;
+        font-size: 22px;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        transition: transform .3s ease-in-out;
+        min-width: 200px; /* Worked! */
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Settings-button:hover {
+        transform: scale(1.2);
+    }
+    
+    .Settings-p {
+        /* color: blue; */
+        font-size: 14px;
+        font-weight: 600;
+        margin: 2px;
+        margin-left: 45px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 135px;
+    }
+}

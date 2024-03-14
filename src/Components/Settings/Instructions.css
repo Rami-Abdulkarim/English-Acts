@@ -1,0 +1,85 @@
+.Instructions {
+    /* color: #00f; */
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    font-family: cursive;
+}
+
+.Instructions-h3 {
+    text-decoration: underline;
+    font-size: 30px;
+}
+.Instructions-ol {
+   margin-left: 30px;
+   font-size: 28px;
+}
+
+.Back-button3 {
+    background: linear-gradient(45deg, lightgreen, green);
+    color: #fff;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 116px;
+    font-size: 25px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: transform .3s ease-in-out;
+    min-width: 150px;
+}
+
+.Back-button3:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 767px) {
+
+    .Instructions {
+        width: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* color: #00f; */
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+
+    .Instructions-h3 {
+        text-decoration: underline;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+        margin-left: 20px;
+    }
+
+    .Instructions-ol {
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 1.5rem;
+    }
+    
+    .Back-button3 {
+        background: linear-gradient(45deg, lightgreen, green);
+        color: #fff;
+        height: 40px;
+        margin-top: 120px;
+        margin-left: 20px;
+        margin-bottom: 80px;
+        font-size: 20px;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        transition: transform .3s ease-in-out;
+        min-width: 120px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .Back-button3:hover {
+        transform: scale(1.2);
+    }
+}

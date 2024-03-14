@@ -1,0 +1,253 @@
+.Games-Container {
+    display: flex;
+}
+
+.Games-Hangman {
+    margin: 30px;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    background: url(./Images/Hamgman-bg.jpg);
+    background-size: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Games-Hangman:hover {
+    transform: scale(1.2);
+}
+
+.Games-Hangman-text {
+    margin-left: 75px;
+}
+
+.Games-MCQs {
+    margin: 30px;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    background: url(./Images/Quiz-bg.png);
+    background-size: contain;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Games-MCQs:hover {
+    transform: scale(1.2);
+}
+
+.Games-MCQs-Text {
+    margin-left: 95px;
+}
+
+.Games-TicTacToe {
+    margin: 30px;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    background: url(./Images/TicTacToe-bg.jpg);
+    background-size: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Games-TicTacToe:hover {
+    transform: scale(1.2);
+}
+
+.Games-TicTacToe-Text {
+    margin-left: 70px;
+}
+
+.Games-TypeTheWord {
+    margin: 30px;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    background: url('./Images/TypeTheWord-bg.jpg') no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Games-TypeTheWord:hover {
+    transform: scale(1.2);
+}
+
+.Games-TypeTheWord-Text {
+    margin-left: 46px;
+}
+
+.Games-MatchWI {
+    margin: 30px;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    background: url('./Images/MatchWI-bg.jpg') no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Games-MatchWI:hover {
+    transform: scale(1.2);
+}
+
+.Games-MatchWI-Text {
+    margin-left: 0px;
+    text-align: center;
+}
+
+.Games-Memory {
+    margin: 30px;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    background: url(./Memory/Assets/Memory-BG.webp) no-repeat center center;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Games-Memory:hover {
+    transform: scale(1.2);
+}
+
+.Games-Memory-Text {
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+@Media (max-width: 767px) {
+
+    .Games-Parent {
+        display: flex;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Games-Container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Games-Hangman {
+        margin: 20px;
+        width: 140px;
+        height: 100px;
+        border-radius: 5px;
+        background: url(./Images/Hamgman-bg.jpg);
+        background-size: cover;
+        transition: transform 0.3s ease-in-out;
+        overflow: hidden;
+    }
+    
+    .Games-Hangman:hover {
+        transform: scale(1.2);
+    }
+
+    .Games-Hangman-text {
+        margin-left: 47px;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Games-MCQs {
+        margin: 20px;
+        width: 140px;
+        height: 100px;
+        border-radius: 5px;
+        background: url(./Images/Quiz-bg.png);
+        background-size: contain;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .Games-MCQs:hover {
+        transform: scale(1.2);
+    }
+    
+    .Games-MCQs-Text {
+        margin-left: 63px;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Games-TicTacToe {
+        margin: 20px;
+        width: 140px;
+        height: 100px;
+        border-radius: 5px;
+        background: url(./Images/TicTacToe-bg.jpg);
+        background-size: cover;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .Games-TicTacToe:hover {
+        transform: scale(1.2);
+    }
+    
+    .Games-TicTacToe-Text {
+        margin-left: 40px;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Games-Container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Games-TypeTheWord {
+        margin: 20px;
+        width: 140px;
+        height: 100px;
+        border-radius: 5px;
+        background: url('./Images/TypeTheWord-bg.jpg') no-repeat;
+        background-size: cover;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .Games-TypeTheWord:hover {
+        transform: scale(1.2);
+    }
+    
+    .Games-TypeTheWord-Text {
+        margin-left: 22px;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Games-MatchWI {
+        margin: 20px;
+        width: 140px;
+        height: 100px;
+        border-radius: 5px;
+        background: url('./Images/MatchWI-bg.jpg') no-repeat;
+        background-size: cover;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .Games-MatchWI:hover {
+        transform: scale(1.2);
+    }
+    
+    .Games-MatchWI-Text {
+        margin-left: 0px;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Games-Memory {
+        margin: 20px;
+        width: 140px;
+        height: 100px;
+        border-radius: 5px;
+        background: url(./Memory/Assets/Memory-BG.webp) no-repeat center center;
+        background-size: cover;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .Games-Memory:hover {
+        transform: scale(1.2);
+    }
+    
+    .Games-Memory-Text {
+        margin-left: 25px;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+};

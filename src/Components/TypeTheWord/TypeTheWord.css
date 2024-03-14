@@ -1,0 +1,115 @@
+.TypeTheWord-Parent {
+    /* background: #0f1B21; */
+    background: url('./Images/Park.jpeg') no-repeat center fixed;
+    background-size: cover;
+    overflow: hidden;
+    height: 84.6vh;
+}
+
+.TypeTheWord-h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.TypeTheWord-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+.TypeTheWord-Image {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.TypeTheWord-Image.flip {
+    transform: rotateY(180deg);
+}
+
+.TypeTheWord-Text {
+    margin-top: 30px;
+}
+
+.TypeTheWord-Q {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.TypeTheWord-Input {
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@Media (max-width: 767px) {
+    .TypeTheWord-Parent {
+        /* background: #0f1B21; */
+        background: url('./Images/Park.jpeg');
+        background-size: cover;
+        overflow: hidden;
+        height: 100%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .TypeTheWord-h1 {
+        text-align: center;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .TypeTheWord-Parent-Container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: -25px;
+        margin-bottom: 20px;
+        gap: 10px;
+    }
+
+    .TypeTheWord-Container {
+        flex-direction: column;
+    }
+
+    .TypeTheWord-Image {
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: transform 1s;
+        transform-style: preserve-3d;
+    }
+
+    .TypeTheWord-Image.flip {
+        transform: rotateY(180deg);
+    }
+    
+    .TypeTheWord-Text {
+        margin-top: 10px;
+    }
+
+    .TypeTheWord-Q {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    
+    .TypeTheWord-Input {
+        width: 100px;
+        height: 25px;
+        border: none;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
