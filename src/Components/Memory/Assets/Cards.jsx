@@ -19,22 +19,22 @@ const Cards = () => {
   };
 
     const [items, setItems] = useState([
-        { id: 1, img: '/img/Cat.png', stat: "" },
-        { id: 1, img: '/img/Cat.png', stat: "" },
-        { id: 2, img: '/img/Crocodile.jpeg', stat: "" },
-        { id: 2, img: '/img/Crocodile.jpeg', stat: "" },
-        { id: 3, img: '/img/Dog.jpeg', stat: "" },
-        { id: 3, img: '/img/Dog.jpeg', stat: "" },
-        { id: 4, img: '/img/Girafee.jpeg', stat: "" },
-        { id: 4, img: '/img/Girafee.jpeg', stat: "" },
-        { id: 5, img: '/img/Goat.jpeg', stat: "" },
-        { id: 5, img: '/img/Goat.jpeg', stat: "" },
-        { id: 6, img: '/img/Hen.png', stat: "" },
-        { id: 6, img: '/img/Hen.png', stat: "" },
-        { id: 7, img: '/img/Sheep.jpeg', stat: "" },
-        { id: 7, img: '/img/Sheep.jpeg', stat: "" },
-        { id: 8, img: '/img/Tiger.png', stat: "" },
-        { id: 8, img: '/img/Tiger.png', stat: "" }
+        { id: 1, img: process.env.PUBLIC_URL + '/img/Cat.png', stat: "", alt: "Cat" },
+        { id: 1, img: process.env.PUBLIC_URL + '/img/Cat.png', stat: "", alt: "Cat" },
+        { id: 2, img: process.env.PUBLIC_URL + '/img/Crocodile.jpeg', stat: "", alt: "Crocodile" },
+        { id: 2, img: process.env.PUBLIC_URL + '/img/Crocodile.jpeg', stat: "", alt: "Crocodile" },
+        { id: 3, img: process.env.PUBLIC_URL + '/img/Dog.jpeg', stat: "", alt: "Dog" },
+        { id: 3, img: process.env.PUBLIC_URL + '/img/Dog.jpeg', stat: "", alt: "Dog" },
+        { id: 4, img: process.env.PUBLIC_URL + '/img/Girafee.jpeg', stat: "", alt: "Girafee" },
+        { id: 4, img: process.env.PUBLIC_URL + '/img/Girafee.jpeg', stat: "", alt: "Girafee" },
+        { id: 5, img: process.env.PUBLIC_URL + '/img/Goat.jpeg', stat: "", alt: "Goat" },
+        { id: 5, img: process.env.PUBLIC_URL + '/img/Goat.jpeg', stat: "", alt: "Goat" },
+        { id: 6, img: process.env.PUBLIC_URL + '/img/Hen.png', stat: "", alt: "Hen" },
+        { id: 6, img: process.env.PUBLIC_URL + '/img/Hen.png', stat: "", alt: "Hen" },
+        { id: 7, img: process.env.PUBLIC_URL + '/img/Sheep.jpeg', stat: "", alt: "Sheep" },
+        { id: 7, img: process.env.PUBLIC_URL + '/img/Sheep.jpeg', stat: "", alt: "Sheep" },
+        { id: 8, img: process.env.PUBLIC_URL + '/img/Tiger.png', stat: "", alt: "Tiger" },
+        { id: 8, img: process.env.PUBLIC_URL + '/img/Tiger.png', stat: "", alt: "Tiger" }
     ].sort(() => Math.random() - 0.5))
 
     const [prev, setPrev] = useState(-1);
