@@ -53,7 +53,7 @@
     gap: 30px;
     background: url(./Assets/MCQs-BG.jpg) no-repeat center fixed;
     background-size: cover;
-    height: 84.6vh;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -87,7 +87,7 @@
 .MCQs-Q-Main {
     background: url(./Assets/MCQs-BG.jpg) no-repeat center fixed;
     background-size: cover;
-    height: 84.6vh;
+    height: 100vh;
     overflow: hidden;
 }
 
