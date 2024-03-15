@@ -1,7 +1,7 @@
 .MCQs-MainPage {
     background: url(./Assets/MCQs-BG.jpg) no-repeat center fixed;
     background-size: cover;
-    height: 84.6vh;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -14,7 +14,7 @@
 .MCQs-H3 {
     color: #fff;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 120px;
     font-size: 28px;
 }
 

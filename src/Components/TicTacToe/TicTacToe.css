@@ -3,10 +3,11 @@
   background: url(../Images/TTT-Background.jpeg);
   text-align: center;
   overflow: hidden;
+  height: 100vh;
 }
 
 .TicTacToe-H1 {
-  margin-top: 44px;
+  margin-top: 60px;
   color: #fff;
   font-size: 40px;
   display: flex;

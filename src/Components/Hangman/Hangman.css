@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     /* height: 80vh; */
-    height: 550px;
+    height: 100vh;
     margin: 0;
     overflow: hidden;
   }
