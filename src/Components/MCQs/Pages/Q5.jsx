@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Swal from 'sweetalert2';
 import { GrFormNextLink } from "react-icons/gr";
 import { Link } from "react-router-dom";
 import Click from '../../../Click';
 
 const Q5 = () => {
+  const [correctAnswerClicked, setCorrectAnswerClicked] = useState(false);
+
   const correctSound = () => {
     const audio = new Audio(process.env.PUBLIC_URL + '/Sounds/Correct.mp3');
     audio.play();
@@ -24,6 +26,7 @@ const Q5 = () => {
         color: "green",
   });
   correctSound();
+  setCorrectAnswerClicked(true);
   }
 
   const handleClick2 = () => {
@@ -52,7 +55,7 @@ const Q5 = () => {
       </div>
       <div className='MCQs-Q-Buttons3'>
         <Link to='/MCQs'>
-        <button onClick={Click} className='MCQs-Q-Next-Button'>Finish <GrFormNextLink /></button></Link>
+        <button disabled={!correctAnswerClicked} onClick={Click} className='MCQs-Q-Next-Button'>Finish <GrFormNextLink /></button></Link>
       </div>
     </div>
   )
