@@ -8,8 +8,8 @@ import Click from "../Click";
 
 function Settings() {
   return (
-    <div>
-      <div className="Settings-buttons">
+    <div className="Settings-buttons">
+      <div>
         <button className="Settings-button" disabled={true}>
           Sound <IoIosMusicalNotes className="icon" />
         </button>
