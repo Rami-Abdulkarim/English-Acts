@@ -8,7 +8,8 @@ import Click from "../Click";
 
 function Settings() {
   return (
-    <div className="Settings-buttons">
+    <div className="Settings-Parent">
+      <div className="Settings-buttons">
         <button className="Settings-button" disabled={true}>
           Sound <IoIosMusicalNotes className="icon" />
         </button>
@@ -29,6 +30,7 @@ function Settings() {
         </Link>
         <p className="Settings-p">@Rami's Jolly Learning Activities.</p>
       </div>
+    </div>
   );
 }
 

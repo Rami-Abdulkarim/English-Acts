@@ -1,8 +1,11 @@
-.Settings-buttons {
+.Settings-Parent {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.Settings-buttons {
     max-width: 300px;
     padding-top: 100px;
     margin: 0 auto;
@@ -31,7 +34,7 @@
     font-size: 18px;
     font-weight: 600;
     margin: 2px;
-    margin-left: 5px;
+    margin-left: 45px;
     text-align: center;
     margin-bottom: 37px;
 }
