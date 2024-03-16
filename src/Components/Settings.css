@@ -45,7 +45,7 @@ button:disabled {
     transform: none !important;
 }
 
-@Media (max-width: 767px) {
+@Media (max-width: 382px) {
     .Settings-buttons {
         display: flex;
         flex-direction: column;

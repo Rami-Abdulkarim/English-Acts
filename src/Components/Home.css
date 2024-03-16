@@ -24,7 +24,7 @@
     /* color: #00f; */
 }
 
-@Media (max-width: 767px) {
+@Media (max-width: 382px) {
     .Home {
         display: flex;
         flex-direction: column;

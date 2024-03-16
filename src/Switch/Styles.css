@@ -61,7 +61,7 @@ input:checked + .slider:before {
 }
 
 
-@Media (max-width: 767px) {
+@Media (max-width: 382px) {
     .switch {
         position: relative;
         display: inline-block;
@@ -93,10 +93,10 @@ input:checked + .slider:before {
     .slider:before {
         position: absolute;
         content: "";
-        height: 12.5px;
-        width: 12.5px;
-        left: 1px;
-        bottom: 1.25px;
+        height: 12px;
+        width: 12px;
+        left: 1.8px;
+        bottom: 1.2px;
         background-color: white;
         -webkit-transition: .4s;
         transition: .4s;
@@ -111,9 +111,9 @@ input:checked + .slider:before {
     }
     
     input:checked + .slider:before {
-        -webkit-transform: translateX(15px);
-        -ms-transform: translateX(15px);
-        transform: translateX(15.5px);
+        -webkit-transform: translateX(14px);
+        -ms-transform: translateX(14px);
+        transform: translateX(14px);
     }
     
     .slider.round {

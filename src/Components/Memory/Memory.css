@@ -87,7 +87,8 @@
         /* background: #0f1B21; */
         background: url('../Images/Memory-Background.jpeg');
         background-size: cover;
-        height: 84.6vh;
+        height: 100vh;
+        overflow: hidden;
         font-family: 'Times New Roman', Times, serif;
     }
 

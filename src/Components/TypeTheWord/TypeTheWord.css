@@ -51,13 +51,13 @@
     font-weight: 600;
 }
 
-@Media (max-width: 767px) {
+@Media(max-width: 767px) {
     .TypeTheWord-Parent {
         /* background: #0f1B21; */
         background: url('./Images/Park.jpeg');
         background-size: cover;
+        height: 100vh;
         overflow: hidden;
-        height: 100%;
         font-family: 'Times New Roman', Times, serif;
     }
 
