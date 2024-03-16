@@ -82,14 +82,14 @@
     }
 
     #icon-phone1 {
-        position: absolute;
-        top: 30px;
-        left: 75px;
+        display: inline-block;
+        margin: -7px;
+        margin-bottom: 10px;
     }
 
     #icon-phone2 {
-        position: absolute;
-        top: 30px;
-        left: 120px;
+        display: inline-block;
+        margin: -6px;
+        margin-bottom: 10px;
     }
 }
