@@ -18,7 +18,9 @@ function Home() {
       <p className='Home-p'>-This website is free to use and has no copyright reserved content. Feel
       free to use it anywhere, and anytime!</p>
       </div>
+      <div className="Home-Picture-Container">
       <img className="Home-Picture" src = {require('./Images/happy-children.jpg')} alt='Happy Kids' />
+      </div>
     </div>
     </div>
   )

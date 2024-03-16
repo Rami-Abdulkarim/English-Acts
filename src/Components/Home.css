@@ -3,9 +3,10 @@
 }
 
 .Home-Picture {
-    max-width: 350px;
+    max-width: 400px;
+    max-height: 400px;
     margin-right: 70px;
-    margin-top: 70px;
+    margin-top: 100px;
     border-radius: 5px;
     margin-bottom: 40px;
 }
@@ -24,10 +25,48 @@
     /* color: #00f; */
 }
 
-@Media (max-width: 382px) {
+@media (max-width: 767px) {
+    .Home {
+        display: flex;
+    }
+    
+    .Home-Picture {
+        max-width: 250px;
+        max-height: 250px;
+        margin-right: 20px;
+        margin-top: 100px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .Home-h1 {
+        text-align: center;
+        /* color: #00f; */
+    }
+    .Home-p {
+        margin-left: 10px;
+        text-align: justify;
+        margin-right: 50px;
+        line-height: 1.5rem;
+        font-size: 16px;
+        margin-bottom: 10px;
+        /* color: #00f; */
+    }
+}
+
+@media (max-width: 539px) {
     .Home {
         display: flex;
         flex-direction: column;
+        overflow: auto !important;
+        min-height: 100vh;
+    }
+
+    .Home-Picture-Container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -40px;
     }
     
     .Home-Picture {
@@ -36,6 +75,46 @@
         align-self: center;
         border-radius: 5px;
         margin-left: 60px;
+    }
+    
+    .Home-h1 {
+        text-align: center;
+        /* color: #00f; */
+    }
+    .Home-p {
+        margin-left: 10px;
+        text-align: justify;
+        margin-right: 50px;
+        line-height: 1.5rem;
+        font-size: 15px;
+        margin-bottom: 10px;
+        /* color: #00f; */
+    }
+
+    .Home-h3 {
+        font-size: 18px;
+        font-weight: 1000;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+@Media (max-width: 382px) {
+    .Home {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Home-Picture-Container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -40px;
+    }
+    
+    .Home-Picture {
+        max-width: 200px;
+        max-height: 150px;
+        border-radius: 5px;
     }
     
     .Home-h1 {

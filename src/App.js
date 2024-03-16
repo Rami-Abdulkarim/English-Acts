@@ -91,7 +91,6 @@ function App() {
     <div className="App"
     style={{
       backgroundColor: theme === "light" ? "white" : "black",
-      overflow: "hidden"
     }}>
       <div className='nav-container'>
         <h2 className='nav-item nav-title'>Rami.</h2>

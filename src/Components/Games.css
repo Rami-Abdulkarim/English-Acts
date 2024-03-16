@@ -112,10 +112,152 @@
     margin-bottom: 20px;
 }
 
-@Media (max-width: 382px) {
+@Media (max-width: 767px) {
 
     .Games-Parent {
         display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Games-Container {
+        display: flex;
+    }
+
+    .Games-Hangman {
+        margin: 20px;
+        width: 170px;
+        height: 120px;
+        border-radius: 5px;
+        background: url(./Images/Hamgman-bg.jpg);
+        background-size: cover;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .Games-Hangman:hover {
+        transform: scale(1.2);
+    }
+
+    .Games-Hangman-text {
+        margin-left: 67px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Games-MCQs {
+        margin: 20px;
+        width: 170px;
+        height: 120px;
+        border-radius: 5px;
+        background: url(./Images/Quiz-bg.png);
+        background-size: contain;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .Games-MCQs:hover {
+        transform: scale(1.2);
+    }
+    
+    .Games-MCQs-Text {
+        margin-left: 78px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Games-TicTacToe {
+        margin: 20px;
+        width: 170px;
+        height: 120px;
+        border-radius: 5px;
+        background: url(./Images/TicTacToe-bg.jpg);
+        background-size: cover;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .Games-TicTacToe:hover {
+        transform: scale(1.2);
+    }
+    
+    .Games-TicTacToe-Text {
+        margin-left: 58px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Games-Container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Games-TypeTheWord {
+        margin: 20px;
+        width: 170px;
+        height: 120px;
+        border-radius: 5px;
+        background: url('./Images/TypeTheWord-bg.jpg') no-repeat;
+        background-size: cover;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .Games-TypeTheWord:hover {
+        transform: scale(1.2);
+    }
+    
+    .Games-TypeTheWord-Text {
+        margin-left: 40px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Games-MatchWI {
+        margin: 20px;
+        width: 170px;
+        height: 120px;
+        border-radius: 5px;
+        background: url('./Images/MatchWI-bg.jpg') no-repeat;
+        background-size: cover;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .Games-MatchWI:hover {
+        transform: scale(1.2);
+    }
+    
+    .Games-MatchWI-Text {
+        margin-left: 0px;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Games-Memory {
+        margin: 20px;
+        width: 170px;
+        height: 120px;
+        border-radius: 5px;
+        background: url(./Memory/Assets/Memory-BG.webp) no-repeat center center;
+        background-size: cover;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .Games-Memory:hover {
+        transform: scale(1.2);
+    }
+    
+    .Games-Memory-Text {
+        margin-left: 40px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+@Media (max-width: 400px) {
+
+    .Games-Parent {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
         font-family: 'Times New Roman', Times, serif;
     }
 
@@ -132,7 +274,6 @@
         background: url(./Images/Hamgman-bg.jpg);
         background-size: cover;
         transition: transform 0.3s ease-in-out;
-        overflow: hidden;
     }
     
     .Games-Hangman:hover {
@@ -140,7 +281,7 @@
     }
 
     .Games-Hangman-text {
-        margin-left: 47px;
+        margin-left: 53px;
         font-size: 18px;
         font-family: 'Times New Roman', Times, serif;
     }
@@ -180,7 +321,7 @@
     }
     
     .Games-TicTacToe-Text {
-        margin-left: 40px;
+        margin-left: 48px;
         font-size: 18px;
         font-family: 'Times New Roman', Times, serif;
     }
@@ -205,7 +346,7 @@
     }
     
     .Games-TypeTheWord-Text {
-        margin-left: 22px;
+        margin-left: 32px;
         font-size: 18px;
         font-family: 'Times New Roman', Times, serif;
     }
@@ -246,7 +387,7 @@
     }
     
     .Games-Memory-Text {
-        margin-left: 25px;
+        margin-left: 32px;
         font-size: 18px;
         font-family: 'Times New Roman', Times, serif;
     }
