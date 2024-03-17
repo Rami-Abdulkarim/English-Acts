@@ -334,6 +334,7 @@ function TypeTheWord() {
 
   return (
     <div className="TypeTheWord-Parent">
+      <br/>
       <h1 className="TypeTheWord-h1">Guess The Word 😄</h1>
       <div className="TypeTheWord-Parent-Container">
       <div className="TypeTheWord-Container">

@@ -1,8 +1,8 @@
 .MatchWI-Parent {
     background: url(../Images/Classroom.jpeg) no-repeat center fixed;
     background-size: cover;
-    height: 100vh;
-    overflow: hidden;
+    height: 100vh !important;
+    overflow: hidden !important;
 }
 
 .MatchWI {
@@ -45,8 +45,8 @@
 .MatchWI-Info-Parent {
     background: url(../Images/Classroom.jpeg) no-repeat center fixed;
     background-size: cover;
-    height: 100vh;
-    overflow: hidden;
+    height: 100vh !important;
+    overflow: hidden !important;
 }
 
 .MatchWI-Info {
@@ -79,8 +79,8 @@
 .MatchWIPlay-Parent {
     background: url(../Images/Classroom-board.jpeg) no-repeat center fixed;
     background-size: cover;
-    height: 100vh;
-    overflow: hidden;
+    height: 100vh !important;
+    overflow: hidden !important;
 }
 
 .MatchWIPlay-Picture {
@@ -169,7 +169,7 @@
         background: url(../Images/Mobile-Board.png) no-repeat center fixed;
         background-size: cover;
         height: 84.6vh;
-        overflow: hidden;
+        overflow: hidden !important;
         font-family: 'Times New Roman', Times, serif;
     }
 

@@ -56,8 +56,8 @@
         /* background: #0f1B21; */
         background: url('./Images/Park.jpeg');
         background-size: cover;
-        height: 100vh;
-        overflow: hidden;
+        height: 130vh;
+        overflow: visible;
         font-family: 'Times New Roman', Times, serif;
     }
 
