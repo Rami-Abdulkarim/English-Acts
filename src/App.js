@@ -29,6 +29,7 @@ import Switch from "./Switch";
 import MatchWIInfo from "./Components/MatchWI/Pages/MatchWIInfo.jsx";
 import MatchWIPlay from "./Components/MatchWI/Pages/MatchWIPlay.jsx";
 import Click from "./Click.jsx";
+import SyllablesFinder from './Components/SyllablesFinder/SyllablesFinder.jsx';
 
 const Title = ({ children }) => {
   const { theme } = useTheme();
@@ -79,6 +80,7 @@ const Everything = () => {
         <Route path='/Q4' element = {<Q4 />} />
         <Route path='/Q5' element = {<Q5 />} />
         <Route path='/Memory' element = {<Memory />} />
+        <Route path='/SyllablesFinder' element = {<SyllablesFinder />} />
       </Routes>
       </Content>
   );

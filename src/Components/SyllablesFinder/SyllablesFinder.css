@@ -1,0 +1,68 @@
+.SyllablesFinder-Parent {
+    background: url(./Images/SyllablesFinder-BG.jpeg) no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.SyllablesFinder-H1 {
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.SyllablesFinder-Container1 {
+    padding-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.SyllablesFinder-Box {
+    width: 170px;
+    height: 170px;
+    background: linear-gradient(45deg, cyan, green);
+    border-radius: 0.8rem;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SyllablesFinder-Box-Text {
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+}
+
+.SyllablesFinder-Input-Flex {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.SyllablesFinder-Input {
+    margin-left: 20px;
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+}
+
+.SyllablesFinder-Button {
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(45deg, cyan, green);
+    transition: transform .3s ease-in-out;
+    cursor: pointer;
+}
+
+.SyllablesFinder-Button:hover {
+    transform: scale(1.1);
+}

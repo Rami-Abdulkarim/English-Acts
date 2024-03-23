@@ -2,6 +2,10 @@
     display: flex;
 }
 
+.Games-container2 {
+    display: flex;
+}
+
 .Games-Hangman {
     margin: 30px;
     width: 200px;
@@ -112,6 +116,25 @@
     margin-bottom: 20px;
 }
 
+.Games-SyllablesFinder {
+    margin: 30px;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    background: url(./Images/SyllablesFinder.jpeg) no-repeat center center;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Games-SyllablesFinder:hover {
+    transform: scale(1.2);
+}
+
+.Games-SyllablesFinder-Text {
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
 @Media (max-width: 767px) {
 
     .Games-Parent {
@@ -123,6 +146,11 @@
 
     .Games-Container {
         display: flex;
+    }
+
+    .Games-container2 {
+        display: flex;
+        flex-direction: column;
     }
 
     .Games-Hangman {
@@ -250,6 +278,29 @@
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
     }
+
+    .Games-SyllablesFinder {
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 170px;
+        height: 120px;
+        border-radius: 5px;
+        background: url(./Images/SyllablesFinder.jpeg) no-repeat center center;
+        background-size: cover;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .Games-SyllablesFinder:hover {
+        transform: scale(1.2);
+    }
+    
+    .Games-SyllablesFinder-Text {
+        margin-left: 35px;
+        margin-left: 35px;
+        margin-top: -10px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
 }
 
 @Media (max-width: 400px) {
@@ -262,6 +313,11 @@
     }
 
     .Games-Container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Games-container2 {
         display: flex;
         flex-direction: column;
     }
@@ -281,7 +337,7 @@
     }
 
     .Games-Hangman-text {
-        margin-left: 53px;
+        margin-left: 43px;
         font-size: 18px;
         font-family: 'Times New Roman', Times, serif;
     }
@@ -321,7 +377,7 @@
     }
     
     .Games-TicTacToe-Text {
-        margin-left: 48px;
+        margin-left: 38px;
         font-size: 18px;
         font-family: 'Times New Roman', Times, serif;
     }
@@ -346,7 +402,7 @@
     }
     
     .Games-TypeTheWord-Text {
-        margin-left: 32px;
+        margin-left: 22px;
         font-size: 18px;
         font-family: 'Times New Roman', Times, serif;
     }
@@ -366,7 +422,6 @@
     }
     
     .Games-MatchWI-Text {
-        margin-left: 0px;
         text-align: center;
         font-size: 18px;
         font-family: 'Times New Roman', Times, serif;
@@ -387,8 +442,31 @@
     }
     
     .Games-Memory-Text {
-        margin-left: 32px;
+        margin-left: 22px;
         font-size: 18px;
         font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Games-SyllablesFinder {
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 140px;
+        height: 100px;
+        border-radius: 5px;
+        background: url(./Images/SyllablesFinder.jpeg) no-repeat center center;
+        background-size: cover;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .Games-SyllablesFinder:hover {
+        transform: scale(1.2);
+    }
+    
+    .Games-SyllablesFinder-Text {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        text-align: center;
+        margin-left: -10px;
+        margin-top: -10px;
     }
 };

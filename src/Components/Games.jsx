@@ -19,6 +19,16 @@ function Games() {
     });
   };
 
+  const handleClick2 = () => {
+    Swal.fire ({
+      title: "How to play?",
+      text: "First, write the number of syllables in the first input. Second, split the word using slash '/' to write each syllable. For example, 'sadness' becomes 'sad/ness' in the second input.",
+      icon: "info",
+      iconColor: "blue",
+      color: "blue",
+    });
+  };
+
   return (
     <div className="Games-Parent">
     <div className="Games-Container">
@@ -59,12 +69,22 @@ function Games() {
       </div>
     </div>
 
-    <div className="Games-container">
+    <div className="Games-container2">
       <div>
         <Link to="/Memory">
           <div className="Games-Memory"></div>
         </Link>
         <h3 className="Games-Memory-Text">Memory Game</h3>
+      </div>
+      <br />
+      <div>
+        <Link to="/SyllablesFinder">
+          <div className="Games-SyllablesFinder" onClick={() => {
+            handleClick2();
+            inform();
+          }}></div>
+        </Link>
+        <h3 className="Games-SyllablesFinder-Text">Syllables Finder</h3>
       </div>
     </div>
     </div>
