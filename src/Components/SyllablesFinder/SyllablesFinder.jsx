@@ -348,6 +348,7 @@ const SyllablesFinder = () => {
     <div className="SyllablesFinder-Parent">
       <h1 className="SyllablesFinder-H1">Syllables Finder 🔎</h1>
       <div className="SyllablesFinder-Container1">
+        <div className="SyllablesFinder-Responsive2">
         <span>
           <div className="SyllablesFinder-Box">
             <h3 className="SyllablesFinder-Box-Text">Happy</h3>
@@ -368,8 +369,6 @@ const SyllablesFinder = () => {
               placeholder="Write the Syllables"
               className="SyllablesFinder-Input"
             />
-            <br />
-            <br />
             <button onClick={handleAnswer1} className="SyllablesFinder-Button">
               Check Answer
             </button>
@@ -402,8 +401,6 @@ const SyllablesFinder = () => {
               placeholder="Write the Syllables"
               className="SyllablesFinder-Input"
             />
-            <br />
-            <br />
             <button onClick={handleAnswer2} className="SyllablesFinder-Button">
               Check Answer
             </button>
@@ -436,8 +433,6 @@ const SyllablesFinder = () => {
               placeholder="Write the Syllables"
               className="SyllablesFinder-Input"
             />
-            <br />
-            <br />
             <button onClick={handleAnswer3} className="SyllablesFinder-Button">
               Check Answer
             </button>
@@ -449,7 +444,9 @@ const SyllablesFinder = () => {
             </button>
           </div>
         </span>
+        </div>
 
+        <div className="SyllablesFinder-Responsive2">
         <span>
           <div className="SyllablesFinder-Box">
             <h3 className="SyllablesFinder-Box-Text">Wednesday</h3>
@@ -470,8 +467,6 @@ const SyllablesFinder = () => {
               placeholder="Write the Syllables"
               className="SyllablesFinder-Input"
             />
-            <br />
-            <br />
             <button onClick={handleAnswer4} className="SyllablesFinder-Button">
               Check Answer
             </button>
@@ -504,8 +499,6 @@ const SyllablesFinder = () => {
               placeholder="Write the Syllables"
               className="SyllablesFinder-Input"
             />
-            <br />
-            <br />
             <button onClick={handleAnswer5} className="SyllablesFinder-Button">
               Check Answer
             </button>
@@ -538,8 +531,6 @@ const SyllablesFinder = () => {
               placeholder="Write the Syllables"
               className="SyllablesFinder-Input"
             />
-            <br />
-            <br />
             <button onClick={handleAnswer6} className="SyllablesFinder-Button">
               Check Answer
             </button>
@@ -551,6 +542,7 @@ const SyllablesFinder = () => {
             </button>
           </div>
         </span>
+        </div>
       </div>
     </div>
   );
