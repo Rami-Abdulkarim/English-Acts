@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/English-Acts/static/css/main.b9914bd0.css",
-    "main.js": "/English-Acts/static/js/main.890e91f3.js",
+    "main.css": "/English-Acts/static/css/main.605f9dde.css",
+    "main.js": "/English-Acts/static/js/main.8cda6212.js",
     "static/js/787.075134c2.chunk.js": "/English-Acts/static/js/787.075134c2.chunk.js",
     "static/media/MCQs-BG.jpg": "/English-Acts/static/media/MCQs-BG.233d05aaa6ec1097a260.jpg",
     "static/media/Classroom-board.jpeg": "/English-Acts/static/media/Classroom-board.e2fa8f3d74f95c536a72.jpeg",
@@ -10,6 +10,7 @@
     "static/media/Mobile-Board.png": "/English-Acts/static/media/Mobile-Board.93c38ba7d8955d8422d6.png",
     "static/media/Park.jpeg": "/English-Acts/static/media/Park.a7d2a3c199c89a980fdb.jpeg",
     "static/media/Office.jpeg": "/English-Acts/static/media/Office.10e8bb8f10bf01de557a.jpeg",
+    "static/media/SyllablesFinder-BG.jpeg": "/English-Acts/static/media/SyllablesFinder-BG.a8235cfc912c1fe1d99b.jpeg",
     "static/media/Mill.jpeg": "/English-Acts/static/media/Mill.c1701e1b6798f299694e.jpeg",
     "static/media/Snake.png": "/English-Acts/static/media/Snake.6534030c79c6a381c59c.png",
     "static/media/Ocean.jpg": "/English-Acts/static/media/Ocean.fa92f5d277ecabf4d4b6.jpg",
@@ -30,17 +31,18 @@
     "static/media/TicTacToe-bg.jpg": "/English-Acts/static/media/TicTacToe-bg.ff341111d1d3a0aef7f6.jpg",
     "static/media/Zoo.jpeg": "/English-Acts/static/media/Zoo.33a8eaf137cce800e305.jpeg",
     "static/media/TypeTheWord-bg.jpg": "/English-Acts/static/media/TypeTheWord-bg.318c901ca04b3da06245.jpg",
+    "static/media/SyllablesFinder.jpeg": "/English-Acts/static/media/SyllablesFinder.72a16a229bbfc3c1be60.jpeg",
     "static/media/question-mark.jpg": "/English-Acts/static/media/question-mark.e170d3b9848dc32b2723.jpg",
     "static/media/Hamgman-bg.jpg": "/English-Acts/static/media/Hamgman-bg.e28bf595826a11429fe6.jpg",
     "static/media/Thinking.jpg": "/English-Acts/static/media/Thinking.b0685b58c4358b657f09.jpg",
     "static/media/Dolphin.jpeg": "/English-Acts/static/media/Dolphin.51f84fd238ed72873fbc.jpeg",
     "index.html": "/English-Acts/index.html",
-    "main.b9914bd0.css.map": "/English-Acts/static/css/main.b9914bd0.css.map",
-    "main.890e91f3.js.map": "/English-Acts/static/js/main.890e91f3.js.map",
+    "main.605f9dde.css.map": "/English-Acts/static/css/main.605f9dde.css.map",
+    "main.8cda6212.js.map": "/English-Acts/static/js/main.8cda6212.js.map",
     "787.075134c2.chunk.js.map": "/English-Acts/static/js/787.075134c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9914bd0.css",
-    "static/js/main.890e91f3.js"
+    "static/css/main.605f9dde.css",
+    "static/js/main.8cda6212.js"
   ]
 }
