@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/English-Acts/static/css/main.605f9dde.css",
-    "main.js": "/English-Acts/static/js/main.8cda6212.js",
+    "main.css": "/English-Acts/static/css/main.9f718698.css",
+    "main.js": "/English-Acts/static/js/main.75f8fdb0.js",
     "static/js/787.075134c2.chunk.js": "/English-Acts/static/js/787.075134c2.chunk.js",
     "static/media/MCQs-BG.jpg": "/English-Acts/static/media/MCQs-BG.233d05aaa6ec1097a260.jpg",
     "static/media/Classroom-board.jpeg": "/English-Acts/static/media/Classroom-board.e2fa8f3d74f95c536a72.jpeg",
@@ -16,13 +16,23 @@
     "static/media/Ocean.jpg": "/English-Acts/static/media/Ocean.fa92f5d277ecabf4d4b6.jpg",
     "static/media/Fox.png": "/English-Acts/static/media/Fox.d0946ecf1ff7afc66054.png",
     "static/media/MatchWI-bg.jpg": "/English-Acts/static/media/MatchWI-bg.4eceefa94adab2f99f48.jpg",
+    "static/media/Write.png": "/English-Acts/static/media/Write.37de7d8f630127964146.png",
     "static/media/Memory-Background.jpeg": "/English-Acts/static/media/Memory-Background.dbb7db5153b1a354ee05.jpeg",
     "static/media/happy-children.jpg": "/English-Acts/static/media/happy-children.05df01c2d458a3463b73.jpg",
+    "static/media/GoodJob.gif": "/English-Acts/static/media/GoodJob.c3119d3f9bfca8531017.gif",
     "static/media/Theater.jpeg": "/English-Acts/static/media/Theater.228be62cee125444145a.jpeg",
     "static/media/TTT-Background.jpeg": "/English-Acts/static/media/TTT-Background.4813b6a6ca5118866682.jpeg",
     "static/media/Classroom.jpeg": "/English-Acts/static/media/Classroom.8b14532fc7111717b20f.jpeg",
     "static/media/Bear.png": "/English-Acts/static/media/Bear.278dded2c86682c5aa8e.png",
+    "static/media/Road.jpeg": "/English-Acts/static/media/Road.ac1b68047054c909c387.jpeg",
+    "static/media/Skull.png": "/English-Acts/static/media/Skull.a9c17be85bee9d13ce8a.png",
+    "static/media/HomophonesNormal-BG.jpg": "/English-Acts/static/media/HomophonesNormal-BG.64fe3af6dad1ef36dfd7.jpg",
+    "static/media/homophones.jpeg": "/English-Acts/static/media/homophones.95b7690947a76708e47a.jpeg",
+    "static/media/Homophones-Main.jpg": "/English-Acts/static/media/Homophones-Main.428f6b26f0f24c3fd447.jpg",
+    "static/media/Rain.png": "/English-Acts/static/media/Rain.7afb7334ee475a94f686.png",
+    "static/media/Tied.jpeg": "/English-Acts/static/media/Tied.d932524e6e424dbe79db.jpeg",
     "static/media/Desktop.jpg": "/English-Acts/static/media/Desktop.85beccf42d03363a0f20.jpg",
+    "static/media/See.jpg": "/English-Acts/static/media/See.8bae1c58d10f0dbb0b61.jpg",
     "static/media/TTT-M-Background.jpg": "/English-Acts/static/media/TTT-M-Background.d7796e20d1a6ade23485.jpg",
     "static/media/museum.jpeg": "/English-Acts/static/media/museum.a409916135ff75f8b950.jpeg",
     "static/media/Memory-BG.webp": "/English-Acts/static/media/Memory-BG.658b1c89cff9ede6fa0b.webp",
@@ -33,16 +43,19 @@
     "static/media/TypeTheWord-bg.jpg": "/English-Acts/static/media/TypeTheWord-bg.318c901ca04b3da06245.jpg",
     "static/media/SyllablesFinder.jpeg": "/English-Acts/static/media/SyllablesFinder.72a16a229bbfc3c1be60.jpeg",
     "static/media/question-mark.jpg": "/English-Acts/static/media/question-mark.e170d3b9848dc32b2723.jpg",
+    "static/media/Weak.webp": "/English-Acts/static/media/Weak.2da961db1cd5a30b0fc7.webp",
+    "static/media/Tail.jpg": "/English-Acts/static/media/Tail.dd9ad85d97450e186844.jpg",
+    "static/media/Sun.jpeg": "/English-Acts/static/media/Sun.95a3435de2cbea44d084.jpeg",
     "static/media/Hamgman-bg.jpg": "/English-Acts/static/media/Hamgman-bg.e28bf595826a11429fe6.jpg",
     "static/media/Thinking.jpg": "/English-Acts/static/media/Thinking.b0685b58c4358b657f09.jpg",
     "static/media/Dolphin.jpeg": "/English-Acts/static/media/Dolphin.51f84fd238ed72873fbc.jpeg",
     "index.html": "/English-Acts/index.html",
-    "main.605f9dde.css.map": "/English-Acts/static/css/main.605f9dde.css.map",
-    "main.8cda6212.js.map": "/English-Acts/static/js/main.8cda6212.js.map",
+    "main.9f718698.css.map": "/English-Acts/static/css/main.9f718698.css.map",
+    "main.75f8fdb0.js.map": "/English-Acts/static/js/main.75f8fdb0.js.map",
     "787.075134c2.chunk.js.map": "/English-Acts/static/js/787.075134c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.605f9dde.css",
-    "static/js/main.8cda6212.js"
+    "static/css/main.9f718698.css",
+    "static/js/main.75f8fdb0.js"
   ]
 }
