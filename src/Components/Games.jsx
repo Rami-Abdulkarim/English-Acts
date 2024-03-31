@@ -29,6 +29,16 @@ function Games() {
     });
   };
 
+  const handleClick3 = () => {
+    Swal.fire ({
+      title: "Important!",
+      text: "Kindly read the innstructions to know how to play.",
+      icon: "info",
+      iconColor: "blue",
+      color: "blue",
+    });
+  };
+
   return (
     <div className="Games-Parent">
     <div className="Games-Container">
@@ -85,6 +95,16 @@ function Games() {
           }}></div>
         </Link>
         <h3 className="Games-SyllablesFinder-Text">Syllables Finder</h3>
+      </div>
+      <br />
+      <div>
+        <Link to="/Homophones">
+          <div className="Games-Homophones" onClick={() => {
+            handleClick3();
+            inform();
+          }}></div>
+        </Link>
+        <h3 className="Games-Homophones-Text">Homophones King 👑</h3>
       </div>
     </div>
     </div>

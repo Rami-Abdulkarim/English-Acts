@@ -135,6 +135,25 @@
     margin-bottom: 20px;
 }
 
+.Games-Homophones {
+    margin: 30px;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    background: url(./Images/homophones.jpeg) no-repeat center center;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Games-Homophones:hover {
+    transform: scale(1.2);
+}
+
+.Games-Homophones-Text {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
 @Media (max-width: 767px) {
 
     .Games-Parent {

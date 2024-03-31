@@ -30,6 +30,9 @@ import MatchWIInfo from "./Components/MatchWI/Pages/MatchWIInfo.jsx";
 import MatchWIPlay from "./Components/MatchWI/Pages/MatchWIPlay.jsx";
 import Click from "./Click.jsx";
 import SyllablesFinder from './Components/SyllablesFinder/SyllablesFinder.jsx';
+import Homophones from './Components/Homophones/Homophones.jsx';
+import HomophonesInfo from './Components/Homophones/HomophonesInfo.jsx';
+import HomophonesNormal from './Components/Homophones/HomophonesNormal.jsx';
 
 const Title = ({ children }) => {
   const { theme } = useTheme();
@@ -81,6 +84,9 @@ const Everything = () => {
         <Route path='/Q5' element = {<Q5 />} />
         <Route path='/Memory' element = {<Memory />} />
         <Route path='/SyllablesFinder' element = {<SyllablesFinder />} />
+        <Route path='/Homophones' element = {<Homophones />} />
+        <Route path='/HomophonesInfo' element = {<HomophonesInfo />} />
+        <Route path='/HomophonesNormal' element = {<HomophonesNormal />} />
       </Routes>
       </Content>
   );
