@@ -101,7 +101,7 @@
     color: #fff;
 }
 
-.HomophonesNormal-Image-Countainer {
+.HomophonesNormal-Image-Container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -232,7 +232,7 @@
     height: 40px;
     border: none;
     border-radius: 20px;
-    background: #0f0;
+    background: #ff0;
     color: #00f;
     font-size: 24px;
     font-weight: 600;
@@ -242,4 +242,260 @@
 
 .HomophonesNormal-Congrats-Button:hover {
     transform: scale(1.1);
+}
+
+@media(max-width:767px) {
+    .Homophones-Parent {
+        background: url('../Images/Homophones-Main.jpg') no-repeat center fixed;
+        background-size: cover;
+        height: 110vh;
+        color: #fff;
+        margin-top: -30px !important;
+        overflow: scroll;
+    }
+    
+    .Homophones-H1 {
+        text-align: center;
+        padding-top: 60px;
+        font-size: 25px;
+    }
+
+    .Homophones-Container {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+        margin-top: 150px;
+        margin-left: 0px;
+    }
+    
+    .Homophones-Set {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .Homophones-Main-Button {
+        width: 60px;
+        height: 60px;
+        background: yellow;
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+        transition: transform .3s ease-in-out;
+    }
+    
+    .Homophones-Main-Button:hover {
+        transform: scale(1.2);
+    }
+
+    .Homophones-Main-Icon {
+        font-size: 23px;
+        margin-left: 0px;
+        color: #00f;
+    }
+    
+    .Homophones-Main-Text {
+        font-size: 14px;
+        color: #fff;
+        text-align: center;
+        margin-left: 0px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .HomophonesInfo-Parent {
+        background: url('../Images/Homophones-Main.jpg') no-repeat center fixed;
+        background-size: cover;
+        height: 110vh;
+        color: #fff;
+        margin-top: -30px;
+        overflow: scroll;
+    }
+    
+    .HomophonesInfo-H1 {
+        text-align: center;
+        padding-top: 40px;
+        font-size: 25px;
+    }
+    
+    .HomophonesInfo-Ol {
+        font-size: 18px;
+        line-height: 3rem;
+    }
+
+    .HomophonesInfo-Button {
+        display: block;
+        margin: 0 auto;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: none;
+        background: yellow;
+        cursor: pointer;
+        transition: transform .3s ease-in-out;
+        margin-bottom: 15px;
+    }
+    
+    .HomophonesInfo-Button:hover {
+        transform: scale(1.2);
+    }
+    
+    .HomophonesInfo-Icon {
+        font-size: 22px;
+        color: #00f;
+        margin-bottom: -2px;
+    }
+
+    .HomophonesNormal-Parent {
+        background: url('../Images/HomophonesNormal-BG.jpg') no-repeat center fixed;
+        background-size: cover;
+        height: 100vh;
+        color: #fff;
+    }
+    
+    .HomophonesNormal-Image-Container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .HomophonesNormal-Image {
+        width: 200px;
+        height: 200px;
+        background: url('./Images/See.jpg') no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+    }
+
+    .HomophonesNormal-Image2 {
+        width: 200px;
+        height: 200px;
+        background: url('./Images/Write.png') no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+    }
+    
+    .HomophonesNormal-Image3 {
+        width: 200px;
+        height: 200px;
+        background: url('./Images/Road.jpeg') no-repeat center;
+        background-size: cover;
+        border-radius: 20px;
+    }
+    
+    .HomophonesNormal-Image4 {
+        width: 200px;
+        height: 200px;
+        background: url('./Images/Tail.jpg') no-repeat center;
+        background-size: cover;
+        border-radius: 20px;
+    }
+
+    .HomophonesNormal-Image5 {
+        width: 200px;
+        height: 200px;
+        background: url('./Images/Weak.webp') no-repeat center;
+        background-size: cover;
+        border-radius: 20px;
+    }
+    
+    .HomophonesNormal-Image6 {
+        width: 200px;
+        height: 200px;
+        background: url('./Images/Sun.jpeg') no-repeat center;
+        background-size: cover;
+        border-radius: 20px;
+    }
+    
+    .HomophonesNormal-Image7 {
+        width: 200px;
+        height: 200px;
+        background: url('./Images/Tied.jpeg') no-repeat center;
+        background-size: cover;
+        border-radius: 20px;
+    }
+
+    .HomophonesNormal-Image8 {
+        width: 200px;
+        height: 200px;
+        background: #f00;
+        background-size: cover;
+        border-radius: 20px;
+    }
+    
+    .HomophonesNormal-Image9 {
+        width: 200px;
+        height: 200px;
+        background: url('./Images/Rain.png') no-repeat center;
+        background-size: cover;
+        border-radius: 20px;
+    }
+    
+    .HomophonesNormal-Image10 {
+        width: 200px;
+        height: 200px;
+        background: url('./Images/Skull.png') no-repeat center;
+        background-size: cover;
+        border-radius: 20px;
+    }
+
+    .HomophonesNormal-Congrats {
+        font-size: 30px;
+    }
+    
+    .HomophonesNormal-Image11 {
+        width: 200px;
+        height: 200px;
+        background: url('./Images/GoodJob.gif') no-repeat center;
+        background-size: cover;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .HomophonesNormal-Choices {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-top: 50px;
+    }
+
+    .HomophonesNormal-Buttons {
+        width: 140px;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+        background: #ff0;
+        color: #00f;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .HomophonesNormal-Buttons:hover {
+        transform: scale(1.1);
+    }
+
+    .HomophonesNormal-Congrats-Button {
+        width: 140px;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+        background: #ff0;
+        color: #00f;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .HomophonesNormal-Congrats-Button:hover {
+        transform: scale(1.1);
+    }
 }

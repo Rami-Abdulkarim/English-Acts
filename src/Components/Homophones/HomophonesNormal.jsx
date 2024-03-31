@@ -18,6 +18,11 @@ const HomophonesNormal = () => {
     audio2.play();
   };
 
+  const congratsSound = () => {
+    const audio3 = new Audio (process.env.PUBLIC_URL + '/Sounds/Congrats.wav');
+    audio3.play();
+  };
+
   const handleClick = () => {
     Swal.fire ({
       title: "Great Job 😄!",
@@ -41,10 +46,22 @@ const HomophonesNormal = () => {
     wrongSound();
   };
 
+  const handleClick3 = () => {
+    Swal.fire ({
+      title: "Congratulations 😄!",
+        text: "You did a great job!",
+        icon: "success",
+        iconColor: "green",
+        color: "green",
+  });
+  congratsSound();
+  setCorrectAnswerClicked(true);
+  };
+
   const firstQuestion = () => {
     return (
         <div className='HomophonesNormal-Parent'>
-      <div className='HomophonesNormal-Image-Countainer'>
+      <div className='HomophonesNormal-Image-Container'>
       <h1>Question 1/10</h1>
       <div className='HomophonesNormal-Image'></div>
       </div>
@@ -61,7 +78,7 @@ const HomophonesNormal = () => {
   const secondQuestion = () => {
     return (
         <div className='HomophonesNormal-Parent'>
-      <div className='HomophonesNormal-Image-Countainer'>
+      <div className='HomophonesNormal-Image-Container'>
       <h1>Question 2/10</h1>
       <div className='HomophonesNormal-Image2'></div>
       </div>
@@ -78,7 +95,7 @@ const HomophonesNormal = () => {
   const thirdQuestion = () => {
     return (
         <div className='HomophonesNormal-Parent'>
-      <div className='HomophonesNormal-Image-Countainer'>
+      <div className='HomophonesNormal-Image-Container'>
       <h1>Question 3/10</h1>
       <div className='HomophonesNormal-Image3'></div>
       </div>
@@ -95,7 +112,7 @@ const HomophonesNormal = () => {
   const fourthQuestion = () => {
     return (
         <div className='HomophonesNormal-Parent'>
-      <div className='HomophonesNormal-Image-Countainer'>
+      <div className='HomophonesNormal-Image-Container'>
       <h1>Question 4/10</h1>
       <div className='HomophonesNormal-Image4'></div>
       </div>
@@ -112,7 +129,7 @@ const HomophonesNormal = () => {
   const fifthQuestion = () => {
     return (
         <div className='HomophonesNormal-Parent'>
-      <div className='HomophonesNormal-Image-Countainer'>
+      <div className='HomophonesNormal-Image-Container'>
       <h1>Question 5/10</h1>
       <div className='HomophonesNormal-Image5'></div>
       </div>
@@ -129,7 +146,7 @@ const HomophonesNormal = () => {
   const sixthQuestion = () => {
     return (
         <div className='HomophonesNormal-Parent'>
-      <div className='HomophonesNormal-Image-Countainer'>
+      <div className='HomophonesNormal-Image-Container'>
       <h1>Question 6/10</h1>
       <div className='HomophonesNormal-Image6'></div>
       </div>
@@ -146,7 +163,7 @@ const HomophonesNormal = () => {
   const seventhQuestion = () => {
     return (
         <div className='HomophonesNormal-Parent'>
-      <div className='HomophonesNormal-Image-Countainer'>
+      <div className='HomophonesNormal-Image-Container'>
       <h1>Question 7/10</h1>
       <div className='HomophonesNormal-Image7'></div>
       </div>
@@ -163,7 +180,7 @@ const HomophonesNormal = () => {
   const eighthQuestion = () => {
     return (
         <div className='HomophonesNormal-Parent'>
-      <div className='HomophonesNormal-Image-Countainer'>
+      <div className='HomophonesNormal-Image-Container'>
       <h1>Question 8/10</h1>
       <div className='HomophonesNormal-Image8'></div>
       </div>
@@ -180,7 +197,7 @@ const HomophonesNormal = () => {
   const ninthQuestion = () => {
     return (
         <div className='HomophonesNormal-Parent'>
-      <div className='HomophonesNormal-Image-Countainer'>
+      <div className='HomophonesNormal-Image-Container'>
       <h1>Question 9/10</h1>
       <div className='HomophonesNormal-Image9'></div>
       </div>
@@ -197,7 +214,7 @@ const HomophonesNormal = () => {
   const tenthQuestion = () => {
     return (
         <div className='HomophonesNormal-Parent'>
-      <div className='HomophonesNormal-Image-Countainer'>
+      <div className='HomophonesNormal-Image-Container'>
       <h1>Question 10/10</h1>
       <div className='HomophonesNormal-Image10'></div>
       </div>
@@ -214,7 +231,7 @@ const HomophonesNormal = () => {
   const exitNormal = () => {
     return (
         <div className='HomophonesNormal-Parent'>
-      <div className='HomophonesNormal-Image-Countainer'>
+      <div className='HomophonesNormal-Image-Container'>
       <h1 className='HomophonesNormal-Congrats'>⭐Congratulations⭐</h1>
       <div className='HomophonesNormal-Image11'></div>
       <Link to='/Homophones'>
@@ -272,7 +289,7 @@ const HomophonesNormal = () => {
   };
 
   const handleExit = () => {
-    handleClick();
+    handleClick3();
     setQuestionNumber(11);
   }
   
