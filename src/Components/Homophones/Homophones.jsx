@@ -26,8 +26,9 @@ const Homophones = () => {
         </div>
 
         <div className="Homophones-Set">
-          <button disabled={true} className="Homophones-Main-Button"><FaPlay className="Homophones-Main-Icon"/>
-          </button>
+          <Link to="/HomophonesHard">
+          <button className="Homophones-Main-Button"><FaPlay className="Homophones-Main-Icon"/>
+          </button></Link>
           <h3 className="Homophones-Main-Text">Hard Mode</h3>
         </div>
       </div>

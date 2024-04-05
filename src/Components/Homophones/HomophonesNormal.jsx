@@ -25,7 +25,7 @@ const HomophonesNormal = () => {
 
   const handleClick = () => {
     Swal.fire ({
-      title: "Great Job 😄!",
+        title: "Great Job 😄!",
         text: "What a nice knowledge!",
         icon: "success",
         iconColor: "green",
@@ -48,7 +48,7 @@ const HomophonesNormal = () => {
 
   const handleClick3 = () => {
     Swal.fire ({
-      title: "Congratulations 😄!",
+        title: "Congratulations 😄!",
         text: "You did a great job!",
         icon: "success",
         iconColor: "green",

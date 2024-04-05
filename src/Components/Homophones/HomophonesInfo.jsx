@@ -12,9 +12,9 @@ const HomophonesInfo = () => {
         normal one.</li>
         <li><u>Normal Mode:</u> You have 10 questions. Try to answer them correctly to win.</li>
         <li><u>Hard Mode:</u> You have another 10 questions. However, you have to challenge 
-        yourself and answer the questions in a short time.</li>
-        <li><u>Hard Mode:</u> You have 5 seconds for each question to answer correctly or you'll quit
-        automatically. "(Coming Soon!)"</li>
+        yourself and answer a bit more advanced questions.</li>
+        <li><u>Hard Mode:</u> You have to answer each question correctly from the first
+        try or you'll quit automatically.</li>
       </ol>
       <Link to="/Homophones">
       <button className='HomophonesInfo-Button'><IoMdArrowRoundBack className='HomophonesInfo-Icon' /></button></Link>

@@ -33,6 +33,7 @@ import SyllablesFinder from './Components/SyllablesFinder/SyllablesFinder.jsx';
 import Homophones from './Components/Homophones/Homophones.jsx';
 import HomophonesInfo from './Components/Homophones/HomophonesInfo.jsx';
 import HomophonesNormal from './Components/Homophones/HomophonesNormal.jsx';
+import HomophonesHard from './Components/Homophones/HomophonesHard.jsx';
 
 const Title = ({ children }) => {
   const { theme } = useTheme();
@@ -87,6 +88,7 @@ const Everything = () => {
         <Route path='/Homophones' element = {<Homophones />} />
         <Route path='/HomophonesInfo' element = {<HomophonesInfo />} />
         <Route path='/HomophonesNormal' element = {<HomophonesNormal />} />
+        <Route path='/HomophonesHard' element = {<HomophonesHard />} />
       </Routes>
       </Content>
   );

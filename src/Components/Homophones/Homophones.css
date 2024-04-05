@@ -244,6 +244,156 @@
     transform: scale(1.1);
 }
 
+.HomophonesHard-Parent {
+    background: url('../Images/HomophonesHard.jpg') no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+
+.HomophonesHard-Image-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.HomophonesHard-Image {
+    width: 250px;
+    height: 250px;
+    background: url('./Images/Waste.jpeg') no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.HomophonesHard-Image2 {
+    width: 250px;
+    height: 250px;
+    background: url('./Images/Brake.jpeg') no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.HomophonesHard-Image3 {
+    width: 250px;
+    height: 250px;
+    background: url('./Images/Whale.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.HomophonesHard-Image4 {
+    width: 250px;
+    height: 250px;
+    background: url('./Images/Duel.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.HomophonesHard-Image5 {
+    width: 250px;
+    height: 250px;
+    background: url('./Images/Wore.png') no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.HomophonesHard-Image6 {
+    width: 250px;
+    height: 250px;
+    background: url('./Images/Sail.png') no-repeat center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.HomophonesHard-Image7 {
+    width: 250px;
+    height: 250px;
+    background: url('./Images/Soul.png') no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.HomophonesHard-Image8 {
+    width: 250px;
+    height: 250px;
+    background: url('./Images/Sore.png') no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.HomophonesHard-Image9 {
+    width: 250px;
+    height: 250px;
+    background: url('./Images/Vein.jpeg') no-repeat center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.HomophonesHard-Image10 {
+    width: 250px;
+    height: 250px;
+    background: url('./Images/Throne.png') no-repeat center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.HomophonesHard-Congrats {
+    font-size: 42px;
+}
+
+.HomophonesHard-Image11 {
+    width: 250px;
+    height: 250px;
+    background: url('./Images/GreatJob.gif') no-repeat center;
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.HomophonesHard-Choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.HomophonesHard-Buttons {
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: #ff0;
+    color: #00f;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.HomophonesHard-Buttons:hover {
+    transform: scale(1.1);
+}
+
+.HomophonesHard-Congrats-Button {
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: #ff0;
+    color: #00f;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.HomophonesHard-Congrats-Button:hover {
+    transform: scale(1.1);
+}
+
 @media(max-width:767px) {
     .Homophones-Parent {
         background: url('../Images/Homophones-Main.jpg') no-repeat center fixed;
@@ -478,6 +628,157 @@
         transition: transform 0.3s ease-in-out;
     }
     
+    .HomophonesNormal-Buttons:hover {
+        transform: scale(1.1);
+    }
+
+    .HomophonesNormal-Congrats-Button {
+        width: 140px;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+        background: #ff0;
+        color: #00f;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .HomophonesNormal-Congrats-Button:hover {
+        transform: scale(1.1);
+    }
+
+    .HomophonesHard-Parent {
+        background: url('../Images/HomophonesHard.jpg') no-repeat center fixed;
+        background-size: cover;
+        height: 100vh;
+        color: #fff;
+    }
+    
+    .HomophonesHard-Image-Container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .HomophonesHard-Image {
+        width: 200px;
+        height: 200px;
+        background: url('./Images/Waste.jpeg') no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+    }
+
+    .HomophonesHard-Image2 {
+        width: 200px;
+        height: 200px;
+        background: url('./Images/Brake.jpeg') no-repeat center;
+        background-size: cover;
+        border-radius: 20px;
+    }
+    
+    .HomophonesHard-Image3 {
+        width: 200px;
+        height: 200px;
+        background: url('./Images/Whale.jpg') no-repeat center;
+        background-size: cover;
+        border-radius: 20px;
+    }
+    
+    .HomophonesHard-Image4 {
+        width: 200px;
+        height: 200px;
+        background: url('./Images/Duel.jpg') no-repeat center;
+        background-size: cover;
+        border-radius: 20px;
+    }
+
+    .HomophonesHard-Image5 {
+        width: 200px;
+        height: 200px;
+        background: url('./Images/Wore.png') no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+    }
+    
+    .HomophonesHard-Image6 {
+        width: 200px;
+        height: 200px;
+        background: url('./Images/Sail.png') no-repeat center;
+        background-size: cover;
+        border-radius: 20px;
+    }
+    
+    .HomophonesHard-Image7 {
+        width: 200px;
+        height: 200px;
+        background: url('./Images/Soul.png') no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+    }
+
+    .HomophonesHard-Image8 {
+        width: 200px;
+        height: 200px;
+        background: url('./Images/Sore.png') no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+    }
+    
+    .HomophonesHard-Image9 {
+        width: 200px;
+        height: 200px;
+        background: url('./Images/Vein.jpeg') no-repeat center;
+        background-size: cover;
+        border-radius: 20px;
+    }
+    
+    .HomophonesHard-Image10 {
+        width: 200px;
+        height: 200px;
+        background: url('./Images/Throne.png') no-repeat center;
+        background-size: cover;
+        border-radius: 20px;
+    }
+    
+    .HomophonesHard-Congrats {
+        font-size: 30px;
+    }
+
+    .HomophonesHard-Image11 {
+        width: 200px;
+        height: 200px;
+        background: url('./Images/GreatJob.gif') no-repeat center;
+        background-size: cover;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .HomophonesHard-Choices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 50px;
+    }
+    
+    .HomophonesHard-Buttons {
+        width: 140px;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+        background: #ff0;
+        color: #00f;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+    }
+
     .HomophonesNormal-Buttons:hover {
         transform: scale(1.1);
     }
