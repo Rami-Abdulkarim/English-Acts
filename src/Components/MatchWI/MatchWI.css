@@ -88,12 +88,7 @@
     margin-top: 20px;
     width: 150px;
     height: 150px;
-    transition: transform .3s ease-in-out;
     cursor: pointer;
-}
-
-.MatchWIPlay-Picture:hover {
-    transform: scale(1.2);
 }
 
 .MatchWIPlay-Select {
@@ -153,7 +148,7 @@
 .MatchWIPlay-ContainerResult-Button {
     width: 100px;
     height: 25px;
-    margin-left: 30px;
+    margin-left: 0px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -264,12 +259,7 @@
         margin-top: 20px;
         width: 80px;
         height: 80px;
-        transition: transform .3s ease-in-out;
         cursor: pointer;
-    }
-    
-    .MatchWIPlay-Picture:hover {
-        transform: scale(1.2);
     }
 
     .MatchWIPlay-Select {
@@ -338,7 +328,7 @@
     .MatchWIPlay-ContainerResult-Button {
         width: 80px;
         height: 25px;
-        margin-left: 20px;
+        margin-left: 0px;
         border: none;
         border-radius: 10px;
         cursor: pointer;

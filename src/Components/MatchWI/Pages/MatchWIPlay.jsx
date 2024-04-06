@@ -1,14 +1,33 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Click from '../../../Click';
 
-const Select = () => {
+const Select = ({ expectedValue, onCorrectSelection, reset }) => {
+  const [selectedValue, setSelectedValue] = useState("Select");
+  const [isCorrect, setIsCorrect] = useState(false);
+
+  useEffect(() => {
+    if (reset) {
+      setSelectedValue("Select");
+      setIsCorrect(false);
+    }
+  }, [reset]);
+
+  const handleChange = (event) => {
+    setSelectedValue(event.target.value);
+    if (event.target.value === expectedValue && !isCorrect) {
+      setIsCorrect(true);
+      onCorrectSelection();
+      Click();
+    }
+  };
+
   return (
-    <select onClick={Click} className="MatchWIPlay-Select">
+    <select onChange={handleChange} value={selectedValue} className="MatchWIPlay-Select">
       <option className="MatchWIPlay-Option" value="Select">
         Select
       </option>
-      <option key={"Dolphin"} className="MatchWIPlay-Option" value="dolphin">
+      <option key={"Dolphin"} className="MatchWIPlay-Option" value="Dolphin">
         Dolphin
       </option>
       <option key={"Fox"}  className="MatchWIPlay-Option" value="Fox">
@@ -34,16 +53,20 @@ const MatchWIPlay = () => {
   };
 
   const [add, setAdd] = useState(0);
-  const handleChangeAdd = () => {
+
+  const handleCorrectSelection = () => {
     if (add < 5) {
       setAdd(add + 1);
       markSound();
     }
   };
+
+  const [reset, setReset] = useState(false);
   const handleChangeReset = () => {
     setAdd(0);
     Click();
-  }
+    setReset(prevReset => !prevReset);
+  };
 
   return (
     <div className="MatchWIPlay-Parent">
@@ -57,7 +80,7 @@ const MatchWIPlay = () => {
               alt=""
             />
             <div className="MatchWIPlay-Adjust1">
-              <Select />
+              <Select expectedValue="Bear" onCorrectSelection={handleCorrectSelection} reset={reset} />
             </div>
           </div>
           <div className="MatchWIPlay-Img">
@@ -67,7 +90,7 @@ const MatchWIPlay = () => {
               alt=""
             />
             <div className="MatchWIPlay-Adjust1">
-              <Select />
+              <Select expectedValue="Fox" onCorrectSelection={handleCorrectSelection} reset={reset} />
             </div>
           </div>
         </div>
@@ -80,7 +103,7 @@ const MatchWIPlay = () => {
               alt=""
             />
             <div className="MatchWIPlay-Adjust2">
-              <Select />
+              <Select expectedValue="Dolphin" onCorrectSelection={handleCorrectSelection} reset={reset} />
             </div>
           </div>
           <div className="MatchWIPlay-Img">
@@ -90,7 +113,7 @@ const MatchWIPlay = () => {
               alt=""
             />
             <div className="MatchWIPlay-Adjust2">
-              <Select />
+              <Select expectedValue="Snake" onCorrectSelection={handleCorrectSelection} reset={reset} />
             </div>
           </div>
         </div>
@@ -103,7 +126,7 @@ const MatchWIPlay = () => {
               alt=""
             />
             <div className="MatchWIPlay-Adjust3">
-              <Select />
+              <Select expectedValue="Elephant" onCorrectSelection={handleCorrectSelection} reset={reset} />
             </div>
           </div>
         </div>
@@ -112,7 +135,6 @@ const MatchWIPlay = () => {
         <div className="MatchWIPlay-ContainerResult">
           <fieldset>
             <h1>Result: {add}⭐</h1>
-            <button onClick={handleChangeAdd} className="MatchWIPlay-ContainerResult-Button">Mark</button>
             <button onClick={handleChangeReset} className="MatchWIPlay-ContainerResult-Button">Reset</button>
           </fieldset>
         </div>
