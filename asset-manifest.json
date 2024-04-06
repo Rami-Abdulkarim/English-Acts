@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/English-Acts/static/css/main.655e0b2f.css",
-    "main.js": "/English-Acts/static/js/main.a9987b70.js",
+    "main.css": "/English-Acts/static/css/main.a61694f2.css",
+    "main.js": "/English-Acts/static/js/main.8bd565d3.js",
     "static/js/787.075134c2.chunk.js": "/English-Acts/static/js/787.075134c2.chunk.js",
     "static/media/MCQs-BG.jpg": "/English-Acts/static/media/MCQs-BG.233d05aaa6ec1097a260.jpg",
     "static/media/Classroom-board.jpeg": "/English-Acts/static/media/Classroom-board.e2fa8f3d74f95c536a72.jpeg",
@@ -62,12 +62,12 @@
     "static/media/Brake.jpeg": "/English-Acts/static/media/Brake.95c8d4ecd97467948131.jpeg",
     "static/media/Dolphin.jpeg": "/English-Acts/static/media/Dolphin.51f84fd238ed72873fbc.jpeg",
     "index.html": "/English-Acts/index.html",
-    "main.655e0b2f.css.map": "/English-Acts/static/css/main.655e0b2f.css.map",
-    "main.a9987b70.js.map": "/English-Acts/static/js/main.a9987b70.js.map",
+    "main.a61694f2.css.map": "/English-Acts/static/css/main.a61694f2.css.map",
+    "main.8bd565d3.js.map": "/English-Acts/static/js/main.8bd565d3.js.map",
     "787.075134c2.chunk.js.map": "/English-Acts/static/js/787.075134c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.655e0b2f.css",
-    "static/js/main.a9987b70.js"
+    "static/css/main.a61694f2.css",
+    "static/js/main.8bd565d3.js"
   ]
 }
